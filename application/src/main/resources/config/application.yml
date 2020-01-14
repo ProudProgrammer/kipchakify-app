@@ -1,0 +1,22 @@
+# Server
+server:
+  port : 8080
+
+# Swagger
+swagger:
+  title: Kipchakify Application
+  description: Transforms text to kipchak.
+  version: 1.0
+  terms-of-service-url: https://www.youtube.com/watch?v=d_3pxFkN6A4
+  contact-name: Balázs Gábor
+  contact-url: https://github.com/ProudProgrammer
+  contact-email: mail.gabor.balazs@gmail.com
+  license: GNU General Public License
+  license-url: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
