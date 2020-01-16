@@ -1,4 +1,4 @@
-package org.gaborbalazs.kipchakify.application.configuration;
+package org.gaborbalazs.kipchakifyapp.application.configuration;
 
 import java.util.Collections;
 import java.util.List;

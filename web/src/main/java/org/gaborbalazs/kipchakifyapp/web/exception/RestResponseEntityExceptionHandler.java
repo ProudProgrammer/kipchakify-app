@@ -1,4 +1,4 @@
-package org.gaborbalazs.kipchakify.web.exception;
+package org.gaborbalazs.kipchakifyapp.web.exception;
 
 import java.time.ZonedDateTime;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 
-@RestControllerAdvice(basePackages = {"org.gaborbalazs.kipchakify"})
+@RestControllerAdvice(basePackages = {"org.gaborbalazs.translate"})
 class RestResponseEntityExceptionHandler {
 
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)

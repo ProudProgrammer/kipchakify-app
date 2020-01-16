@@ -1,4 +1,4 @@
-package org.gaborbalazs.kipchakify.web.exception;
+package org.gaborbalazs.kipchakifyapp.web.exception;
 
 import java.time.ZonedDateTime;
 
@@ -18,7 +18,7 @@ public final class ExceptionResponse {
         this.path = builder.path;
     }
 
-    public static Builder newBuilder() {
+    static Builder newBuilder() {
         return new Builder();
     }
 
@@ -52,32 +52,32 @@ public final class ExceptionResponse {
         private Builder() {
         }
 
-        public Builder withTimestamp(ZonedDateTime timestamp) {
+        Builder withTimestamp(ZonedDateTime timestamp) {
             this.timestamp = timestamp;
             return this;
         }
 
-        public Builder withStatus(int status) {
+        Builder withStatus(int status) {
             this.status = status;
             return this;
         }
 
-        public Builder withError(String error) {
+        Builder withError(String error) {
             this.error = error;
             return this;
         }
 
-        public Builder withMessage(String message) {
+        Builder withMessage(String message) {
             this.message = message;
             return this;
         }
 
-        public Builder withPath(String path) {
+        Builder withPath(String path) {
             this.path = path;
             return this;
         }
 
-        public ExceptionResponse build() {
+        ExceptionResponse build() {
             return new ExceptionResponse(this);
         }
     }

@@ -17,5 +17,13 @@
             <groupId>org.gaborbalazs.kipchakify</groupId>
             <artifactId>kipchakify-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.gaborbalazs.kipchakify</groupId>
+            <artifactId>kipchakify-api-impl-kazakh</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.gaborbalazs.kipchakify</groupId>
+            <artifactId>kipchakify-api-impl-tatar</artifactId>
+        </dependency>
     </dependencies>
 </project>
