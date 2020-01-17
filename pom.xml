@@ -80,16 +80,16 @@
                 <artifactId>kipchakify-api</artifactId>
                 <version>${kipchakify-api.version}</version>
             </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.gaborbalazs.kipchakify</groupId>-->
+                <!--<artifactId>kipchakify-api-impl-kazakh</artifactId>-->
+                <!--<version>${kipchakify-api-impl-kazakh.version}</version>-->
+                <!--<scope>runtime</scope>-->
+            <!--</dependency>-->
             <dependency>
                 <groupId>org.gaborbalazs.kipchakify</groupId>
                 <artifactId>kipchakify-api-impl-tatar</artifactId>
                 <version>${kipchakify-api-impl-tatar.version}</version>
-                <scope>runtime</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.gaborbalazs.kipchakify</groupId>
-                <artifactId>kipchakify-api-impl-kazakh</artifactId>
-                <version>${kipchakify-api-impl-kazakh.version}</version>
                 <scope>runtime</scope>
             </dependency>
 
