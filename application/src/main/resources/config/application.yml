@@ -24,6 +24,6 @@ management:
 # Kipchakify provider
 # Kazakhify implementation: org.gaborbalazs.kazakhify.KazakhifyProvider
 # Tatarify implementation: org.gaborbalazs.tatarify.TatarifyProvider
-#kipchakify:
-#  provider:
-#    class: org.gaborbalazs.tatarify.TatarifyProvider
+kipchakify:
+  provider:
+    class: org.gaborbalazs.tatarify.TatarifyProvider
