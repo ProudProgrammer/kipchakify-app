@@ -18,8 +18,8 @@
             <artifactId>kipchakify-api</artifactId>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>org.gaborbalazs.kipchakify</groupId>-->
-            <!--<artifactId>kipchakify-api-impl-kazakh</artifactId>-->
+        <!--<groupId>org.gaborbalazs.kipchakify</groupId>-->
+        <!--<artifactId>kipchakify-api-impl-kazakh</artifactId>-->
         <!--</dependency>-->
         <dependency>
             <groupId>org.gaborbalazs.kipchakify</groupId>

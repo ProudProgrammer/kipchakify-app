@@ -14,13 +14,13 @@
     <dependencies>
         <!-- Module dependencies -->
         <dependency>
-			<groupId>org.gaborbalazs.kipchakify</groupId>
-			<artifactId>kipchakify-app-service</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.gaborbalazs.kipchakify</groupId>
-			<artifactId>kipchakify-app-web</artifactId>
-		</dependency>
+            <groupId>org.gaborbalazs.kipchakify</groupId>
+            <artifactId>kipchakify-app-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.gaborbalazs.kipchakify</groupId>
+            <artifactId>kipchakify-app-web</artifactId>
+        </dependency>
 
         <!-- 3rd party dependencies -->
         <dependency>

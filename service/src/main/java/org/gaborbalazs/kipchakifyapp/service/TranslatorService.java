@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TranslatorService {
 
-    private KipchakifyService kipchakifyService;
+    private final KipchakifyService kipchakifyService;
 
     TranslatorService(KipchakifyService kipchakifyService) {
         this.kipchakifyService = kipchakifyService;

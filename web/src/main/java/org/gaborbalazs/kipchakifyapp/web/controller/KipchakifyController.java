@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 class KipchakifyController implements KipchakifyApi, KipchakifySwaggerApi {
 
-    private TranslatorService translatorService;
+    private final TranslatorService translatorService;
 
     KipchakifyController(TranslatorService translatorService) {
         this.translatorService = translatorService;
